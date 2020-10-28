@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: var(--space-big);
+}
+
+.subtitle {
+    color: var(--color-gray);
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: var(--space-small);
+}
+hr {
+    margin-top: var(--space-big);
+    margin-bottom: var(--space-big);
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}

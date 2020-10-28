@@ -1,0 +1,38 @@
+.introduction {
+    
+}
+.introduction .personal-info {
+    text-align: center;
+}
+
+.introduction .subtitle {
+    font-size: 18px;
+}
+
+.introduction .profilepic {
+    border-radius: 500px; 
+    border: solid 6px purple;
+    height: 150px;
+    width: 150px; 
+    
+}
+
+@media (min-width: 750px) {
+    .introduction .personal-info {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        }
+    .introduction .headertitle {
+        text-align: left;
+        height: 8px;
+        }
+    .introduction .profilepic {
+        margin-right: var(--space-big);
+    }
+
+    .introduction p {
+    max-width: 640px;
+    }
+
+}
